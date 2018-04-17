@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public enum LoadingScene
 {
     Main,
-    Game,
+    LoadLevel,
+    Game1,
+    Game2,
+    Game3
 }
 
 public class Loading : MonoBehaviour
@@ -31,8 +34,8 @@ public class Loading : MonoBehaviour
     {
         string scene = "MainScene";
 
-        if (_nextScene == LoadingScene.Game)
-            scene = "GameScene";
+        if (_nextScene == LoadingScene.LoadLevel)
+            scene = "LevelScene";
 
         async = SceneManager.LoadSceneAsync(scene);
 
@@ -44,5 +47,29 @@ public class Loading : MonoBehaviour
         _nextScene = scene;
 
         SceneManager.LoadScene("LoadingScene");
+    }
+
+    public void StartG()
+    {
+        Load(LoadingScene.LoadLevel);
+    }
+
+    public void Level1()
+    {
+        Load(LoadingScene.Game1);
+    }
+
+    public void Level2()
+    {
+        Load(LoadingScene.Game2);
+    }
+
+    public void Level3()
+    {
+        Load(LoadingScene.Game3);
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

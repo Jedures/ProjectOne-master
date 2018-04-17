@@ -41,7 +41,7 @@ public class ShipController : MonoBehaviour
     private void Start()
     {
 
-        rigidBody = gameObject.AddComponent<Rigidbody2D>();
+        rigidBody = gameObject.GetComponent<Rigidbody2D>();
         rigidBody.gravityScale = 0f;
         //rigidBody.angularVelocity = TerminalRotationSpeed;
         rigidBody.drag = Drag;

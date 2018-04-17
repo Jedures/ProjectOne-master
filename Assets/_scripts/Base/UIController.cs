@@ -4,6 +4,6 @@ public class UIController : MonoBehaviour {
 
     public void PlayButtonClick()
     {
-        Loading.Load(LoadingScene.Game);
+        Loading.Load(LoadingScene.Game1);
     }
 }
