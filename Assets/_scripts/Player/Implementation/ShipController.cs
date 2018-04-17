@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShipController : MonoBehaviour
+public class ShipController : MonoBehaviour, IShip
 {
     #region Public variables
 
@@ -30,9 +30,14 @@ public class ShipController : MonoBehaviour
 
     #endregion
 
-    #region Implementation of IPart
+    #region Implementation of IShip
 
+    private List<IPart> PartList = new List<IPart>();
 
+    public List<IPart> GetPartList()
+    {
+        return PartList;
+    }
 
     #endregion
 

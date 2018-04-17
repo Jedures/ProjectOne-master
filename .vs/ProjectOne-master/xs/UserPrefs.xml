@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{B60E9D43-3C78-ABBC-1E5C-4FA82D420905}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_scripts/Player/Implementation/AiController.cs">
+    <Files>
+      <File FileName="Assets/_scripts/Player/Implementation/AiController.cs" Line="87" Column="51" />
+      <File FileName="Assets/_scripts/Player/Implementation/Canon.cs" Line="9" Column="9" />
+      <File FileName="Assets/_scripts/Player/Implementation/ShipController.cs" Line="109" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ProjectOne-master PreferredExecutionTarget="Unity.Editor" />
+</Properties>
